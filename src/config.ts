@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "PhD candidate in experimental nuclear physics and aspiring data scientist / ML engineer with 5 years experience in data analysis, machine learning, technical writing and speaking, and software project management. Published domain-adversarial GNN approach for physics event classification. Developed fast python I/O interface for custom data format and generic spin asymmetry analysis framework implementing advanced statistical methods showcasing software management and data analysis skills. Eager to apply analytical expertise to develop data-driven solutions as a scientist or engineer.",
-  skills: ["Python", "C++", "Java", "Groovy", "bash", "SQL", "Docker", "Singularity", "Apptainer", "ROOT", "matplotlib", "numpy", "pandas", "PyTorch", "PyTorch Geometric", "optuna"],
+  skills: ["Python", "C++", "Java", "Groovy", "bash", "SQL", "Docker", "Singularity", "Apptainer", "ROOT", "matplotlib", "numpy", "pandas", "PyTorch", "PyTorch Geometric", "Flask", "optuna"],
   projects: [
     {
       name: "HIPOPy : UpROOT-like I/O interface for CLAS12 HIPO files",
@@ -22,7 +22,7 @@ export const siteConfig = {
     {
       name: "SAGA : Spin Asymmetry Generic Analysis",
       description:
-        "Framework for generic spin asymmetry analyses implementing solutions for complex multi-dimensional binning, resonance background corrections, bin migration corrections, and much more.",
+        "Developed framework for generic spin asymmetry analyses implementing solutions for complex multi-dimensional binning, resonance background corrections, maximum likelihood fits and much more.",
       link: "https://github.com/mfmceneaney/saga/?ref=devportfolio",
       skills: ["python", "C++", "bash", "Docker", "Singularity", "Apptainer", "ROOT", "matplotlib", "numpy", "pandas"],
     },
@@ -31,7 +31,7 @@ export const siteConfig = {
       description:
         "Machine learning pipelines implementing domain-adversarial, contrastive adaptation, and Transfer of Imbalance-Tolerant Knowledge (TIToK) domain adaption approaches and for training and deploying a GNN physics event classifier.",
       link: "https://github.com/mfmceneaney/lambdaml/?ref=devportfolio",
-      skills: ["python", "C++", "bash", "SQL", "Docker", "Singularity", "Apptainer", "matplotlib", "numpy", "PyTorch", "PyTorch Geometric", "optuna"],
+      skills: ["python", "C++", "bash", "SQL", "Docker", "Singularity", "Apptainer", "matplotlib", "numpy", "PyTorch", "PyTorch Geometric", "Flask", "optuna"],
     },
     {
       name: "clas12-analysis : Process HIPO events and store particle kinematics in ROOT Trees",
@@ -54,14 +54,14 @@ export const siteConfig = {
       title: "Graduate Research Assistant",
       dateRange: "Aug 2020 - Present",
       bullets: [
-        "In the process of publishing the most precise measurement of Lambda spin transfer, with statistical uncertainties reduced by a factor of 2.2 compared to the next most precise measurement.",
-        "Demonstrated that target fragmentation mechanism dominates the current fragmentation mechanism for Lambda production by a factor of 4.9",
-        "Collaborated with theory colleagues to demonstrate that a proposed experiment with a transversely polarized target would reduce current theoretical uncertainties by a factor of 2 and alleviate tension between two competing sets of theory predictions.  This finding was a major driver in the approval of the experiment by an external panel of field experts.",
+        "Achieved, presented and now publishing the most precise measurement of Λ spin transfer, with statistical uncertainties reduced by a factor of 2.2 compared to the next most precise measurement.",
+        "Demonstrated that target fragmentation mechanism dominates the current fragmentation mechanism for Λ production by a factor of 4.9.",
+        "Collaborated with theory colleagues to demonstrate that a proposed experiment with a transversely polarized target would reduce current theoretical uncertainties by a factor of 2 and alleviate tension between two competing sets of predictions.  This was a major driver in experiment approval by an external panel of field experts.",
         "Developed a generic framework for spin asymmetry analyses with maximum likelihood fitting and other advanced statistical methods, cutting time spent configuring new asymmetry measurements by over half.",
         "Oversaw one undergraduate research student, providing effective guidance for him to implement a machine learning approach to vertex reconstruction.",
         "Implemented new user-requested features for the CLAS12 quality assurance database, providing necessary functionality and improved efficiency.",
-        "Implemented, presented, and published a domain adversarial approach to domain adaptation using Graph Neural Networks (GNNs), improving signal yield by a factor of 1.95 in simulation.",
-        "Created a fast and intuitive python I/O interface for the CLAS12 data format which was a factor of 22.8 times faster than the existing python libraries.  This package has been extensively used for machine learning projects at CLAS12.",
+        "Implemented, presented, and published a domain adversarial approach to domain adaptation using Graph Neural Networks (GNNs) for event classification, improving signal yield by a factor of 1.95 in simulation.",
+        "Created a python I/O package for CLAS12 data which was a factor of 22.8 times faster than the existing python libraries.  This package has been extensively used for machine learning projects at CLAS12.",
       ],
     },
     {
