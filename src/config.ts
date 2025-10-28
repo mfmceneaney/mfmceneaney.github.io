@@ -80,7 +80,7 @@ export const siteConfig = {
       degree: "PhD, Phyiscs",
       dateRange: "2020 - 2026",
       achievements: [
-        "3.89 GPA",
+        "3.89/4.00 GPA",
         "Mary Creason Memorial Award for Undergraduate Teaching (Fall 2021)",
       ],
     },
@@ -89,7 +89,7 @@ export const siteConfig = {
       degree: "Bachelors of Science, Physics",
       dateRange: "2016 - 2020",
       achievements: [
-        "Graduated Summa Cum Laude (3.91 GPA) with honors",
+        "Graduated Summa Cum Laude (3.91/4.00 GPA) with honors",
         "Inducted into PBK Honor Society",
         "Dean's List all semesters",
       ],
