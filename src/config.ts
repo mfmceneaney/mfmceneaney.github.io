@@ -22,7 +22,7 @@ export const siteConfig = {
     {
       name: "SAGA : Spin Asymmetry Generic Analysis",
       description:
-        "I found myself constantly rewriting the same analysis code and so one day decided to expand it into a generalizable framework.  This framework implements solutions in C++ ROOT for complex multi-dimensional binning, maximum likelihood fits for distinguishing signal and background mass spectra and extracting asymmetries, and much more.  It also includes python libraries for configuring jobs to run with SLURM, applying bin migration corrections, and plotting bin results in a systematic way.  All told, this saved my over half the time I would have spent writing new analysis code and configuring job submissions.  Installation is made easy via a container image.",
+        "I found myself constantly rewriting the same analysis code and so one day decided to expand it into a generalizable framework.  This framework implements solutions in C++ ROOT for complex multi-dimensional binning, maximum likelihood fits for distinguishing signal and background mass spectra and extracting asymmetries, and much more.  It also includes python libraries for configuring jobs to run with SLURM, applying bin migration corrections, and plotting binned results in a systematic way.  All told, this has saved me over half the time I would have spent writing new analysis code and configuring job submissions.  Installation is made easy via a container image.",
       link: "https://github.com/mfmceneaney/saga/?ref=devportfolio",
       skills: ["python", "C++", "bash", "Docker", "Singularity", "Apptainer", "ROOT", "matplotlib", "numpy", "pandas"],
     },
@@ -36,7 +36,7 @@ export const siteConfig = {
     {
       name: "clas12-analysis : Process HIPO events and store particle kinematics in ROOT Trees",
       description:
-        "This tool, similar to SAGA, arose out of the realization that I was always rewriting the same event selection code for physics analyses. This tool is writting in groovy and uses a JNI bridge written by a colleague to write data to C++ ROOT.  It can select any final state topology desired from physics event and compute and store particle kinematics, momenta, and detector level information in ROOT Trees.  Installation is made easy through distribution as a container image.  This tool has saved me countless hours writing event selection code for new analyses.",
+        "This tool, similar to SAGA, arose out of the realization that I was always rewriting the same event selection code for physics analyses. This tool is written in groovy and uses a JNI bridge developed by a colleague to write data to C++ ROOT.  It can select any final state topology desired from physics events and compute and store particle kinematics, momenta, and detector level information in ROOT Trees.  Installation is made easy through distribution as a container image.  This tool has saved me countless hours writing event selection code for new analyses.",
       link: "https://github.com/mfmceneaney/clas12-analysis/?ref=devportfolio",
       skills: ["java", "groovy", "bash", "Docker", "Singularity", "Apptainer"],
     },
